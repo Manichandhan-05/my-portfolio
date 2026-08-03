@@ -45,8 +45,8 @@ export default function CommandPalette({ isOpen, onClose, onOpenResume }: Comman
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('malyalamanichandhan@gmail.com');
-    alert('Email copied to clipboard: malyalamanichandhan@gmail.com');
+    navigator.clipboard.writeText('manichandhan05@gmail.com');
+    alert('Email copied to clipboard: manichandhan05@gmail.com');
     onClose();
   };
 

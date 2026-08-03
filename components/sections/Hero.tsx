@@ -33,7 +33,7 @@ export default function Hero({ onOpenResume }: HeroProps) {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
             </span>
-            <span>VIT-AP CSE (AI & ML) • CGPA 8.7</span>
+            <span>VIT-AP CSE (AI & ML) • CGPA 8.82</span>
           </div>
 
           {/* Main Name & Title */}

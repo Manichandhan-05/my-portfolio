@@ -3,17 +3,17 @@ import { Project, SkillCategory, EducationItem, ExperienceItem, Certification, T
 export const HERO_DATA = {
   name: "Malyala Mani Chandhan",
   headline: "AI/ML Engineer • Python Backend Developer • Full Stack Developer",
-  summary: "Architecting intelligent neural networks, real-time computer vision pipelines, and resilient Python microservices backends.",
+  summary: "Motivated AI & ML undergraduate with a strong foundation in neural architectures, computer vision, data analytics, and resilient Python backends.",
   stats: [
-    { label: "B.Tech CGPA", value: "8.7 / 10" },
-    { label: "Core AI Projects", value: "5 Production-Grade" },
-    { label: "Certifications", value: "4 Industry Badges" },
-    { label: "Tech Stack", value: "Python, PyTorch, Next.js" },
+    { label: "B.Tech CGPA", value: "8.82 / 10" },
+    { label: "Core Projects", value: "3 Production-Grade" },
+    { label: "Certifications", value: "4 Verified Badges" },
+    { label: "Tech Stack", value: "Python, TensorFlow, Azure" },
   ]
 };
 
 export const ABOUT_DATA = {
-  summary: "Computer Science & Engineering undergraduate specializing in Artificial Intelligence and Machine Learning at VIT-AP University (CGPA 8.7). Driven by a fundamental principle: building high-performance AI systems that bridge theoretical research with robust production code. Experienced in deep learning manuscript OCR, predictive microservices, computer vision tracking, and scalable backend design.",
+  summary: "Computer Science & Engineering undergraduate specializing in Artificial Intelligence and Machine Learning at Vellore Institute of Technology, Amaravathi (CGPA 8.82). Motivated to bridge theoretical machine learning research with real-world engineering through two-stage transfer learning OCR, predictive REST APIs, and computer vision motion tracking.",
   coreValues: [
     {
       title: "Algorithmic Precision",
@@ -31,33 +31,32 @@ export const ABOUT_DATA = {
       icon: "Sparkles"
     },
     {
-      title: "Engineering Integrity",
-      description: "Writing clean, modular, tested code adhering to strict design patterns and production standards.",
+      title: "Leadership & Collaboration",
+      description: "Proven record leading event operations and outreach at NGC Club, VIT-AP University to streamline workflows.",
       icon: "ShieldCheck"
     }
   ]
 };
 
 export const EDUCATION_DATA: EducationItem = {
-  institution: "VIT-AP University",
+  institution: "Vellore Institute of Technology, Amaravathi",
   degree: "Bachelor of Technology (B.Tech)",
   major: "Computer Science Engineering with specialization in AI & ML",
-  gpa: "8.7 / 10.0 CGPA",
-  duration: "2022 - 2026",
-  location: "Andhra Pradesh, India",
+  gpa: "8.82 / 10.0 CGPA",
+  duration: "Jul 2022 – Jun 2026",
+  location: "Duggirala, Andhra Pradesh",
   coursework: [
     "Machine Learning & Deep Learning",
-    "Natural Language Processing",
+    "Natural Language Processing (NLP)",
     "Computer Vision & Image Processing",
     "Data Structures & Algorithms",
-    "Operating Systems & Computer Networks",
-    "Database Management Systems (RDBMS)",
-    "Cloud Computing & Distributed Systems"
+    "Object-Oriented Programming (OOP)",
+    "Model Deployment & Cloud Architecture"
   ],
   highlights: [
-    "Consistent Academic Performance with 8.7 CGPA",
-    "Specialized coursework focus on Deep Learning Architectures and Neural Network Optimization",
-    "Active participant in technical symposiums and AI research challenges"
+    "Consistent Top Academic Performance with 8.82 CGPA",
+    "Specialized focus on Transfer Learning, Neural Sequence Modeling, and Computer Vision",
+    "Active Student Leader as Event Operations & Outreach Lead at NGC Club"
   ]
 };
 
@@ -65,8 +64,8 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
     role: "Data Analytics Job Simulation",
     company: "Tata Group (via Forage)",
-    type: "Virtual Experience Program",
-    duration: "2024",
+    type: "Virtual Industry Simulation",
+    duration: "Jan 2026",
     location: "Remote",
     description: "Completed an immersive data analytics simulation representing real-world business scenarios faced by Tata Group leadership.",
     bullets: [
@@ -75,23 +74,37 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       "Applied predictive thinking to identify trends, seasonal variations, and operational bottlenecks."
     ],
     skillsUsed: ["Data Analysis", "Business Insights", "Data Visualization", "Predictive Modeling", "Power BI"],
-    disclaimer: "Completed as an industry job simulation via Forage to solve realistic enterprise analytics challenges."
+    disclaimer: "Completed as a virtual industry simulation via Forage to solve realistic enterprise analytics challenges."
+  },
+  {
+    role: "Event Operations & Outreach Lead",
+    company: "NGC Club, VIT-AP University",
+    type: "Leadership & Involvement",
+    duration: "Aug 2023 – May 2024",
+    location: "VIT-AP University",
+    description: "Led core operations and promotional outreach for major student technical and cultural events across campus.",
+    bullets: [
+      "Managed event operations including scheduling, registrations, and volunteer team coordination.",
+      "Worked with organizing teams to streamline event workflows and execution.",
+      "Created digital promotional material to enhance audience reach and engagement.",
+      "Assisted in outreach strategies to improve student participation metrics."
+    ],
+    skillsUsed: ["Event Operations", "Team Leadership", "Digital Promotion", "Outreach Strategy", "Workflow Management"]
   }
 ];
 
 export const SKILLS_DATA: SkillCategory[] = [
   {
-    title: "AI / ML & GenAI",
+    title: "AI / ML & Core Concepts",
     iconName: "BrainCircuit",
     skills: [
       { name: "Machine Learning", level: "Advanced", highlight: true },
       { name: "Deep Learning", level: "Advanced", highlight: true },
       { name: "Computer Vision", level: "Advanced", highlight: true },
       { name: "NLP", level: "Intermediate" },
-      { name: "Transformers & LLMs", level: "Intermediate", highlight: true },
-      { name: "RAG Systems", level: "Intermediate", highlight: true },
-      { name: "LangChain", level: "Learning" },
-      { name: "LangGraph", level: "Learning" },
+      { name: "Data Structures & Algorithms", level: "Advanced", highlight: true },
+      { name: "Model Deployment", level: "Intermediate", highlight: true },
+      { name: "Object-Oriented Programming", level: "Advanced" },
     ]
   },
   {
@@ -102,41 +115,28 @@ export const SKILLS_DATA: SkillCategory[] = [
       { name: "Java", level: "Intermediate" },
       { name: "SQL", level: "Advanced", highlight: true },
       { name: "JavaScript", level: "Intermediate" },
-      { name: "TypeScript", level: "Intermediate" },
     ]
   },
   {
-    title: "Backend & Cloud",
+    title: "Frameworks & Libraries",
     iconName: "Server",
     skills: [
-      { name: "Flask", level: "Advanced", highlight: true },
-      { name: "REST APIs", level: "Advanced", highlight: true },
-      { name: "FastAPI", level: "Learning" },
-      { name: "MySQL", level: "Advanced" },
-      { name: "Azure Cloud", level: "Intermediate", highlight: true },
-      { name: "Docker", level: "Learning" },
+      { name: "TensorFlow", level: "Advanced", highlight: true },
+      { name: "Keras", level: "Advanced", highlight: true },
+      { name: "PyTorch", level: "Intermediate" },
+      { name: "Scikit-learn", level: "Advanced", highlight: true },
+      { name: "OpenCV", level: "Advanced", highlight: true },
+      { name: "Pandas", level: "Advanced" },
     ]
   },
   {
-    title: "Frontend",
-    iconName: "Layout",
-    skills: [
-      { name: "Next.js 15/16", level: "Intermediate", highlight: true },
-      { name: "React", level: "Intermediate", highlight: true },
-      { name: "Tailwind CSS", level: "Advanced" },
-      { name: "HTML5 / CSS3", level: "Advanced" },
-    ]
-  },
-  {
-    title: "Tools & Analytics",
+    title: "Cloud & Tools",
     iconName: "Wrench",
     skills: [
-      { name: "Git", level: "Advanced" },
-      { name: "GitHub", level: "Advanced" },
-      { name: "Power BI", level: "Intermediate" },
-      { name: "OpenCV", level: "Advanced", highlight: true },
-      { name: "TensorFlow", level: "Advanced", highlight: true },
-      { name: "PyTorch", level: "Intermediate" },
+      { name: "Microsoft Azure (AI-900)", level: "Advanced", highlight: true },
+      { name: "Oracle Cloud", level: "Intermediate", highlight: true },
+      { name: "Flask", level: "Advanced", highlight: true },
+      { name: "Git & GitHub", level: "Advanced", highlight: true },
     ]
   }
 ];
@@ -144,107 +144,71 @@ export const SKILLS_DATA: SkillCategory[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     id: "telugu-manuscript-ocr",
-    title: "AI Powered Telugu Manuscript OCR",
-    subtitle: "End-to-end Deep Learning OCR for complex historical Telugu script recognition",
+    title: "Telugu Manuscript OCR: Two-Stage Transfer Learning Pipeline",
+    subtitle: "End-to-end CRNN + CTC Loss deep learning model for historical manuscript transcription",
     category: "AI/ML",
-    description: "A hybrid deep learning optical character recognition framework designed to transcribe historical and degraded Telugu manuscripts with high character-level precision.",
-    problem: "Historical Telugu manuscripts feature complex ligatures, overlapping characters, and background degradation, causing standard OCR engines (like Tesseract) to fail completely.",
-    solution: "Built a custom CRNN (Convolutional Recurrent Neural Network) architecture combining CNN feature extractors with Bidirectional GRUs and Connectionist Temporal Classification (CTC) loss for sequence recognition without requiring manual character segmentation.",
+    description: "Architected a custom Convolutional Recurrent Neural Network (CRNN) combining a 6-layer CNN for feature extraction and a 2-layer Bi-GRU (256 units) for sequence modeling.",
+    problem: "Historical Telugu manuscripts contain unaligned text sequences and degraded physical pages where traditional OCR engines fail due to lack of character-level segmentation.",
+    solution: "Implemented Connectionist Temporal Classification (CTC) loss to enable end-to-end transcription without character segmentation. Deployed a two-stage transfer learning pipeline, pre-training on 11,000 synthetic samples and fine-tuning on 1,000 real manuscript lines.",
     architecture: [
-      "OpenCV preprocessing pipeline (Binarization, Deskewing, Noise Reduction)",
-      "CNN Feature Extraction Backbone leveraging Transfer Learning",
-      "Bidirectional GRU layers for temporal context representation across characters",
-      "CTC (Connectionist Temporal Classification) Loss layer for sequence decoding",
-      "TensorFlow / Keras runtime deployment"
+      "OpenCV preprocessing & deskewing pipeline",
+      "6-Layer CNN backbone for spatial feature map extraction",
+      "2-Layer Bi-GRU (256 units) for bidirectional temporal sequence modeling",
+      "CTC (Connectionist Temporal Classification) Loss layer",
+      "AdamW optimizer with recurrent dropout (Stable validation loss of 25.71)"
     ],
     features: [
-      "Sequence-to-sequence text decoding without line-level manual labeling",
-      "Robust preprocessing pipeline handling ink bleed-through and physical degradation",
-      "Custom character vocabulary mapping tailored to ancient Telugu orthography",
-      "Export capabilities to searchable JSON and plain text formats"
+      "End-to-end sequence transcription without manual character segmentation",
+      "Two-stage transfer learning (11,000 synthetic pre-training + 1,000 real fine-tuning)",
+      "Recurrent dropout optimization reducing validation loss to 25.71",
+      "Python, TensorFlow, OpenCV, CNN, Bi-GRU stack"
     ],
     challenges: [
-      "Curating and annotating a balanced dataset of historical Telugu script variants.",
-      "Eliminating gradient explosion during long sequence Bi-GRU backpropagation.",
-      "Optimizing CTC loss convergence on highly ambiguous character combinations."
+      "Balancing synthetic pre-training dataset generation with domain-specific manuscript noise.",
+      "Preventing overfitting during fine-tuning on limited historical manuscript samples."
     ],
-    techStack: ["TensorFlow", "CRNN", "CNN", "Bi-GRU", "CTC Loss", "Transfer Learning", "OpenCV", "Python"],
+    techStack: ["Python", "TensorFlow", "OpenCV", "CNN", "CRNN", "Bi-GRU", "CTC Loss"],
     image: "/assets/project_telugu_ocr.jpg",
-    githubUrl: "https://github.com/manichandhan/Telugu-Manuscript-OCR",
-    liveUrl: "https://github.com/manichandhan/Telugu-Manuscript-OCR",
+    githubUrl: "https://github.com/Manichandhan-05/Telugu-Manuscript-OCR",
+    liveUrl: "https://github.com/Manichandhan-05/Telugu-Manuscript-OCR",
     featured: true,
     metrics: [
-      { label: "Accuracy Rate", value: "94.2%" },
-      { label: "Inference Speed", value: "45ms/page" }
+      { label: "Synthetic Pre-training", value: "11,000 Lines" },
+      { label: "Validation Loss", value: "25.71 Stable" }
     ]
   },
   {
-    id: "ecommerce-shipping-prediction-api",
-    title: "E-commerce Shipping Prediction API",
-    subtitle: "Production ML Microservice for real-time delivery estimation deployed on Azure",
+    id: "ecommerce-shipping-prediction-system",
+    title: "E-commerce Shipping Prediction System",
+    subtitle: "Flask REST API & Scikit-learn predictive ML model deployed on Microsoft Azure",
     category: "Backend",
-    description: "An enterprise Machine Learning microservice that predicts package delivery timelines based on order metrics, seller location, carrier performance, and historical logistics data.",
-    problem: "E-commerce platforms face high customer churn due to inaccurate delivery estimates provided by static distance-based rules.",
-    solution: "Engineered a predictive REST API powered by gradient boosted decision trees, wrapped in Flask, and deployed onto Azure Cloud with real-time payload validation and automated logging.",
+    description: "Developed a machine learning model using Scikit-learn to predict delivery times with 92% accuracy on a dataset of 10,000 records, deployed as an Azure REST API microservice.",
+    problem: "Logistics platforms encounter delivery delays caused by warehouse bottlenecks and shipping mode friction without real-time predictive lead time estimates.",
+    solution: "Trained a supervised predictive model on historical shipping data and wrapped it in a Flask REST API microservice deployed on Microsoft Azure.",
     architecture: [
-      "Scikit-learn / XGBoost training pipeline with automated hyperparameter tuning",
-      "Flask REST API microservice with strict JSON Schema validation",
-      "Azure App Service deployment with continuous integration",
-      "Telemetry logging and feature importances monitoring"
+      "Scikit-learn model trained on 10,000 logistics records (92% accuracy)",
+      "Flask REST API endpoint receiving JSON shipping inputs and returning lead times",
+      "Microsoft Azure App Service cloud deployment",
+      "Delay factor analysis covering shipping modes and warehouse locations"
     ],
     features: [
-      "Real-time inference latency under 30ms for API consumers",
-      "Comprehensive feature engineering including weather impact and carrier load factors",
-      "Automated fallback rules for out-of-distribution postal codes",
-      "RESTful OpenAPI / Swagger compliant endpoints"
+      "92% prediction accuracy on 10,000 delivery records dataset",
+      "Flask REST API microservice receiving JSON payloads and returning instant estimates",
+      "Microsoft Azure cloud hosting",
+      "Key delay factor identification (shipping modes, warehouse bottlenecks)"
     ],
     challenges: [
-      "Handling extreme missing value proportions in seller dispatch logs.",
-      "Preventing model prediction drift across peak holiday shopping periods.",
-      "Configuring lightweight container memory bounds for cost-efficient Azure deployment."
+      "Encoding categorical shipping modes and warehouse IDs without model bias.",
+      "Ensuring sub-50ms API response time on Azure free tier hosting."
     ],
-    techStack: ["Python", "Flask", "Machine Learning", "REST API", "Azure", "Scikit-Learn", "JSON Schema"],
+    techStack: ["Python", "Flask", "Scikit-learn", "Azure", "REST API"],
     image: "/assets/project_shipping_api.jpg",
-    githubUrl: "https://github.com/manichandhan/Shipping-Prediction-API",
-    liveUrl: "https://github.com/manichandhan/Shipping-Prediction-API",
+    githubUrl: "https://github.com/Manichandhan-05/Shipping-Prediction-API",
+    liveUrl: "https://github.com/Manichandhan-05/Shipping-Prediction-API",
     featured: true,
     metrics: [
-      { label: "Latency", value: "< 30ms" },
-      { label: "Prediction MAE", value: "0.4 Days" }
-    ]
-  },
-  {
-    id: "locallens-hyperlocal-ai-search",
-    title: "LocalLens — Hyper-Local Inventory AI Search",
-    subtitle: "Spatial AI engine for real-time local product discovery and store inventory query",
-    category: "Full Stack",
-    description: "An AI-driven hyper-local search discovery platform allowing users to find specific physical store items nearby using natural language queries and location intelligence.",
-    problem: "Shoppers waste hours visiting local stores because brick-and-mortar merchants lack real-time searchable online inventories.",
-    solution: "Designed LocalLens with semantic vector search capabilities and geolocation indexing, enabling buyers to type natural queries like 'organic almond milk under 500m' and receive instant store stock confirmation.",
-    architecture: [
-      "Next.js / React interactive frontend with map bounding visualization",
-      "Python AI search service integrating embeddings for semantic product matching",
-      "Spatial database querying for distance radius calculations",
-      "Real-time stock status sync protocol"
-    ],
-    features: [
-      "Semantic natural language product query parsing",
-      "Real-time store radius distance mapping and turn-by-turn directions link",
-      "Store merchant inventory management interface",
-      "Responsive glassmorphism UI optimized for mobile shoppers"
-    ],
-    challenges: [
-      "Balancing spatial GIS queries with high-dimensional vector search indices.",
-      "Optimizing client-side map rendering performance during rapid panning."
-    ],
-    techStack: ["Next.js", "React", "Python", "AI", "Location Intelligence", "Real-Time Search", "Tailwind CSS"],
-    image: "/assets/project_locallens.jpg",
-    githubUrl: "https://github.com/manichandhan/LocalLens",
-    liveUrl: "https://github.com/manichandhan/LocalLens",
-    featured: true,
-    metrics: [
-      { label: "Query Time", value: "120ms" },
-      { label: "Spatial Precision", value: "Radius < 50m" }
+      { label: "Accuracy", value: "92%" },
+      { label: "Dataset Size", value: "10,000 Records" }
     ]
   },
   {
@@ -271,61 +235,39 @@ export const PROJECTS_DATA: Project[] = [
       "Eliminating motion blur and frame drop latency during high-speed camera movement.",
       "Calibrating optical camera intrinsic matrices to real-world 3D spatial vectors."
     ],
-    techStack: ["Computer Vision", "OpenCV", "Python", "Object Tracking", "Kalman Filter", "Embedded Hardware Integration"],
+    techStack: ["Computer Vision", "OpenCV", "Python", "Object Tracking", "Kalman Filter"],
     image: "/assets/project_interception.jpg",
-    githubUrl: "https://github.com/manichandhan/Projectile-Interception-System",
-    liveUrl: "https://github.com/manichandhan/Projectile-Interception-System",
+    githubUrl: "https://github.com/Manichandhan-05/Projectile-Interception-System",
+    liveUrl: "https://github.com/Manichandhan-05/Projectile-Interception-System",
     featured: true,
     metrics: [
       { label: "Track FPS", value: "60+ FPS" },
       { label: "Tracking Delay", value: "< 8ms" }
-    ]
-  },
-  {
-    id: "finance-management-system",
-    title: "Finance Management System",
-    subtitle: "Interactive financial tracking and budget analytics portal",
-    category: "Full Stack",
-    description: "A comprehensive personal finance and expense analytics web application enabling users to monitor cashflows, visualize categorical expenditure, and maintain budget goals.",
-    problem: "Individuals struggle to maintain financial discipline due to fragmented banking statements and lack of visual category breakdown.",
-    solution: "Built a responsive dashboard application with dynamic chart visualizations, automated expense tagging, and monthly budget forecasting.",
-    architecture: [
-      "Modular JavaScript application architecture",
-      "Interactive data visualizations utilizing responsive chart libraries",
-      "Local persistence and transaction aggregation algorithms"
-    ],
-    features: [
-      "Categorized expense tracking with real-time budget threshold alerts",
-      "Interactive pie charts and timeline trend graphs",
-      "Exportable financial summary reports",
-      "Sleek intuitive user interface"
-    ],
-    challenges: [
-      "Designing responsive tabular data grids without layout shift on mobile viewports."
-    ],
-    techStack: ["JavaScript", "HTML5", "CSS3", "Dashboard Analytics", "Expense Tracking", "Budgeting"],
-    image: "/assets/project_shipping_api.jpg",
-    githubUrl: "https://github.com/manichandhan/Finance-Management-System",
-    liveUrl: "https://github.com/manichandhan/Finance-Management-System",
-    featured: false,
-    metrics: [
-      { label: "User Interface", value: "100% Responsive" }
     ]
   }
 ];
 
 export const CERTIFICATIONS_DATA: Certification[] = [
   {
-    title: "Microsoft Certified: Azure AI Fundamentals",
+    title: "Tata Group Data Analytics Job Simulation",
+    issuer: "Tata Group & Forage",
+    date: "Jan 2026",
+    credentialId: "Forage Verified Certificate",
+    verifyUrl: "https://theforage.com",
+    skills: ["Enterprise EDA", "Predictive Analytics", "Business Dashboards", "Executive Reporting"],
+    icon: "BarChart3"
+  },
+  {
+    title: "Microsoft Certified: Azure AI Fundamentals (AI-900)",
     issuer: "Microsoft",
     date: "2024",
-    credentialId: "AZ-900 / AI-900 Verified",
+    credentialId: "AZ-900 / AI-900 Certified",
     verifyUrl: "https://learn.microsoft.com",
     skills: ["Azure Computer Vision", "Azure OpenAI", "Azure ML Studio", "Cognitive Services"],
     icon: "ShieldCheck"
   },
   {
-    title: "Oracle Cloud Infrastructure Generative AI Certified Professional",
+    title: "Oracle Cloud: Generative AI Professional",
     issuer: "Oracle",
     date: "2024",
     credentialId: "OCI GenAI Certified",
@@ -334,79 +276,62 @@ export const CERTIFICATIONS_DATA: Certification[] = [
     icon: "Award"
   },
   {
-    title: "TensorFlow Developer Certification Focus",
-    issuer: "DeepLearning.AI / Coursera",
+    title: "Google: TensorFlow Foundations",
+    issuer: "Google / DeepLearning.AI",
     date: "2023",
-    credentialId: "TF-DEV-2023",
+    credentialId: "TF Foundations Certified",
     verifyUrl: "https://coursera.org",
-    skills: ["Neural Networks", "Convolutional Networks", "Natural Language Processing", "Time Series"],
+    skills: ["Neural Networks", "Convolutional Networks", "NLP", "Time Series"],
     icon: "Cpu"
-  },
-  {
-    title: "Tata Group Data Analytics Job Simulation",
-    issuer: "Tata Group & Forage",
-    date: "2024",
-    credentialId: "Forage Certificate of Completion",
-    verifyUrl: "https://theforage.com",
-    skills: ["Enterprise EDA", "Predictive Analytics", "Business Dashboards", "Executive Reporting"],
-    icon: "BarChart3"
   }
 ];
 
 export const TIMELINE_DATA: TimelineItem[] = [
   {
-    year: "2022",
+    year: "Jul 2022",
     title: "Enrolled in B.Tech CSE (AI & ML)",
-    organization: "VIT-AP University",
+    organization: "Vellore Institute of Technology, Amaravathi",
     category: "Education",
-    description: "Started degree program focusing on core computer science foundations, algorithms, and artificial intelligence specialization.",
-    tags: ["VIT-AP", "Computer Science", "AI/ML Base"]
+    description: "Began undergraduate engineering degree specializing in AI, Machine Learning, Data Structures, and Computer Vision.",
+    tags: ["VIT-AP", "AI/ML Base", "CGPA 8.82"]
   },
   {
-    year: "2023",
-    title: "TensorFlow & Computer Vision Milestones",
-    organization: "Independent Research & Coursework",
-    category: "Certification",
-    description: "Mastered deep learning frameworks and built initial computer vision models for target tracking and trajectory modeling.",
-    tags: ["TensorFlow", "OpenCV", "Deep Learning"]
-  },
-  {
-    year: "2024",
-    title: "Azure AI & Oracle GenAI Certifications",
-    organization: "Microsoft & Oracle",
-    category: "Certification",
-    description: "Earned cloud AI certifications validating expertise in enterprise cloud AI services, LLM fine-tuning, and RAG design.",
-    tags: ["Azure AI", "Oracle GenAI", "Cloud Architectures"]
-  },
-  {
-    year: "2024",
-    title: "Tata Group Analytics Simulation & ML Microservices",
-    organization: "Forage & Personal Projects",
-    category: "Project",
-    description: "Completed Tata analytics job simulation and architected Azure-hosted ML REST API microservice for shipping prediction.",
-    tags: ["Tata Analytics", "Azure", "Flask API"]
-  },
-  {
-    year: "2025",
-    title: "Telugu Manuscript OCR & LocalLens AI Search",
-    organization: "Capstone Engineering",
-    category: "Project",
-    description: "Engineered CRNN + CTC Loss manuscript OCR system and LocalLens hyper-local semantic search platform.",
-    tags: ["CRNN", "CTC Loss", "LocalLens", "Vector Search"]
-  },
-  {
-    year: "2026",
-    title: "Agentic AI & Advanced RAG System Exploration",
-    organization: "Active Engineering Focus",
+    year: "Aug 2023",
+    title: "Appointed Operations Lead at NGC Club",
+    organization: "NGC Club, VIT-AP University",
     category: "Learning",
-    description: "Deep-diving into Agentic AI frameworks (LangGraph, LangChain), FastAPI high-throughput backends, and containerized Docker pipelines.",
-    tags: ["LangGraph", "Agentic AI", "FastAPI", "Docker"]
+    description: "Led event operations, registrations, volunteer coordination, and digital promotion strategies across major campus events.",
+    tags: ["Leadership", "Event Operations", "Outreach"]
+  },
+  {
+    year: "Jan 2023 – Dec 2023",
+    title: "E-commerce Shipping Prediction System",
+    organization: "Technical Project",
+    category: "Project",
+    description: "Engineered Scikit-learn predictive model (92% accuracy on 10,000 records) and deployed Flask REST API on Azure.",
+    tags: ["Python", "Flask", "Azure", "92% Accuracy"]
+  },
+  {
+    year: "Aug 2025 – Dec 2025",
+    title: "Telugu Manuscript OCR Transfer Learning",
+    organization: "Capstone Research Project",
+    category: "Project",
+    description: "Architected 6-layer CNN + 2-layer Bi-GRU + CTC Loss model with two-stage transfer learning (11,000 synthetic pre-training lines).",
+    tags: ["TensorFlow", "CRNN", "Bi-GRU", "CTC Loss"]
+  },
+  {
+    year: "Jan 2026",
+    title: "Tata Group Data Analytics Simulation & AI Certifications",
+    organization: "Tata Group & Cloud Vendors",
+    category: "Certification",
+    description: "Completed Tata analytics job simulation and earned Azure AI Fundamentals, Oracle GenAI, and Google TensorFlow credentials.",
+    tags: ["Tata Analytics", "Azure AI", "Oracle GenAI", "Google TF"]
   }
 ];
 
 export const CURRENT_LEARNING_DATA: CurrentLearningItem[] = [
   {
-    topic: "Agentic AI & Multi-Agent Systems",
+    topic: "Agentic AI & Multi-Agent Workflows",
     description: "Building autonomous AI agents capable of multi-step reasoning, tool execution, and state persistence.",
     focusAreas: ["LangGraph Workflows", "Agent State Management", "Tool Calling APIs"],
     status: "In Progress",

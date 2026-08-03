@@ -155,7 +155,7 @@ export default function Contact() {
             {submitStatus === 'error' && (
               <div className="mb-6 p-4 rounded-xl bg-red-950/40 border border-red-500/30 text-red-400 text-sm flex items-center gap-3">
                 <AlertCircle className="w-5 h-5 flex-shrink-0" />
-                <span>Failed to send message. Please try emailing directly to malyalamanichandhan@gmail.com</span>
+                <span>Failed to send message. Please try emailing directly to manichandhan05@gmail.com</span>
               </div>
             )}
 

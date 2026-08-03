@@ -68,14 +68,14 @@ export default function About() {
               VIT-AP University • B.Tech Computer Science (AI & ML)
             </h3>
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-              Maintained an exceptional <strong>8.7 CGPA</strong> across rigorous coursework encompassing Deep Learning architectures, Neural Network Optimization, Computer Vision, Operating Systems, and Distributed Backends.
+              Maintained an exceptional <strong>8.82 CGPA</strong> across rigorous coursework encompassing Deep Learning architectures, Neural Network Optimization, Computer Vision, Operating Systems, and Distributed Backends.
             </p>
           </div>
 
           <div className="lg:col-span-4 grid grid-cols-2 gap-4">
             <div className="p-4 rounded-2xl bg-white/5 border border-white/10 text-center">
               <GraduationCap className="w-6 h-6 text-purple-400 mx-auto mb-2" />
-              <p className="text-2xl font-black text-white">8.7</p>
+              <p className="text-2xl font-black text-white">8.82</p>
               <p className="text-xs text-slate-400">Cumulative CGPA</p>
             </div>
 
