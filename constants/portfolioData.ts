@@ -3,7 +3,7 @@ import { Project, SkillCategory, EducationItem, ExperienceItem, Certification, T
 export const HERO_DATA = {
   name: "Malyala Mani Chandhan",
   headline: "AI/ML Engineer • Python Backend Developer • Full Stack Developer",
-  summary: "Motivated AI & ML undergraduate with a strong foundation in neural architectures, computer vision, data analytics, and resilient Python backends.",
+  summary: "Computer Science Engineering (AI & ML) graduate from Vellore Institute of Technology with expertise in machine learning, deep learning, computer vision, and NLP. Experienced in developing AI applications using Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, SQL, and Flask, including a CRNN-based Telugu Manuscript OCR system and an Azure-deployed machine learning REST API. Microsoft Azure AI Fundamentals and Oracle Cloud Generative AI certified, seeking AI/ML Engineer opportunities to build and deploy intelligent software solutions.",
   stats: [
     { label: "B.Tech CGPA", value: "8.82 / 10" },
     { label: "Core Projects", value: "3 Production-Grade" },
@@ -13,7 +13,7 @@ export const HERO_DATA = {
 };
 
 export const ABOUT_DATA = {
-  summary: "Computer Science & Engineering undergraduate specializing in Artificial Intelligence and Machine Learning at Vellore Institute of Technology, Amaravathi (CGPA 8.82). Motivated to bridge theoretical machine learning research with real-world engineering through two-stage transfer learning OCR, predictive REST APIs, and computer vision motion tracking.",
+  summary: "Computer Science Engineering (AI & ML) graduate from Vellore Institute of Technology with expertise in machine learning, deep learning, computer vision, and NLP. Experienced in developing AI applications using Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, SQL, and Flask, including a CRNN-based Telugu Manuscript OCR system and an Azure-deployed machine learning REST API. Microsoft Azure AI Fundamentals and Oracle Cloud Generative AI certified, seeking AI/ML Engineer opportunities to build and deploy intelligent software solutions.",
   coreValues: [
     {
       title: "Algorithmic Precision",

@@ -24,7 +24,7 @@ LinkedIn: ${siteConfig.socials.linkedin}
 GitHub: ${siteConfig.socials.github}
 
 PROFESSIONAL SUMMARY:
-Motivated AI & ML undergraduate with strong interest in machine learning, computer vision, and data analytics. Hands-on experience through academic projects and virtual industry simulations. Actively seeking real-world engineering exposure.
+Computer Science Engineering (AI & ML) graduate from Vellore Institute of Technology with expertise in machine learning, deep learning, computer vision, and NLP. Experienced in developing AI applications using Python, TensorFlow, PyTorch, OpenCV, Scikit-learn, SQL, and Flask, including a CRNN-based Telugu Manuscript OCR system and an Azure-deployed machine learning REST API. Microsoft Azure AI Fundamentals and Oracle Cloud Generative AI certified, seeking AI/ML Engineer opportunities to build and deploy intelligent software solutions.
 
 EDUCATION:
 Vellore Institute of Technology, Amaravathi (Jul 2022 – Jun 2026)

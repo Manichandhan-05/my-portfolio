@@ -57,7 +57,7 @@ export default function Hero({ onOpenResume }: HeroProps) {
 
           {/* Professional Narrative */}
           <p className="text-slate-400 text-base sm:text-lg max-w-2xl leading-relaxed">
-            {HERO_DATA.summary} Specialized in deep learning manuscript OCR, real-time computer vision trajectories, predictive microservice APIs, and enterprise cloud deployments.
+            {HERO_DATA.summary}
           </p>
 
           {/* Action Buttons */}
